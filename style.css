@@ -1,0 +1,323 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+padding: 46px 133px;
+margin: 0 auto;
+}
+.header{
+    width: 1440px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.nav ul li{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100% ;
+    letter-spacing: 0%;
+}
+.nav ul li:hover{
+color: rgb(201, 102, 63);
+}
+.header-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-content_text{
+    width: 421px;
+}
+.header-content_text h1{
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    
+}
+.header-content_text p{
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-bottom: 35px;
+}
+.header-content_text button{
+    width: 197px;
+    height: 49px;
+    border-radius: 55px;
+    background-color: #458FF6;
+    color: white;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.header-content_text button:hover{
+    background-color:#458ff600 ;
+    color: #458FF6;
+    border: 2px solid #458FF6;
+    transition: all 0.3s;
+}
+h2{
+    padding: 91px 0 0 0;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 56px;
+    letter-spacing: 0%;
+
+}
+.inf{
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card{
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+}
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Cards img{
+    padding: 68 244 217 38px;
+    margin: 20px;
+}
+.Cards h2{
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    letter-spacing: 0%;
+}
+.Cards p{
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    line-height: 1.6;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.card:hover{
+    background-color: #5A98F2;
+    transition: all 0.7s;
+    color: white;
+}
+.page2{
+    width: 200px;
+    height: 56.74357604980469px;
+    border-radius: 55px;
+    margin: 0 auto;
+    background-color: #458FF6;
+    color: white;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.page2:hover{
+    background-color:#458ff600 ;
+    color: #458FF6;
+    border: 2px solid #458FF6;
+    transition: all 0.3s;
+}
+.blac1{
+    text-align: center;
+    font-size: 48px;
+    margin: 0 auto;
+
+
+}
+.text6{
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    border-radius: 20px;
+
+ 
+}
+
+.butt{
+    background-color: #458FF6;
+  color: white;
+
+    width: 201.92px;
+    height: 56.74px;
+    top: 2442px;
+    left: 875px;
+    border-radius: 55px;
+    transition: all 0.3s;
+    font-size: 20px;
+    border: 2px solid #458FF6;
+}
+.ramka{
+    display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.hasha{
+    background-color:#5b5bc8 ;
+    color: #0b2242;
+    border: 2px solid #0f0b10;
+    transition: all 05s;
+    width: 200px;
+    height: 55px;
+    top: 2067px;
+    left: 130px;
+    border-radius: 25px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    
+}
+.menus{
+    width: 1180px;
+    align-items: center;
+ text-align: center;
+ font-size: 35px;
+
+}
+.qora{
+    text-align: center;
+    font-size: 48px;
+}
+.cool{
+    color: rgb(126, 126, 124);
+}
+.textm{
+    font-size: 20px;
+  text-align: center;
+  width: 400px;
+align-items: center;
+}
+.sardor{
+    color: rgb(139, 139, 139);
+}
+.olma{
+    color: #5A98F2;
+    background-color: white;
+    border: 2px solid white;
+}
+.qobil{
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+  
+}
+.abl{
+   
+    color: rgb(139, 139, 139); 
+}
+.bexruz{
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+
+}
+.turob{
+    color: rgb(139, 139, 139); 
+}
+.kml{
+    font-size: 20px;
+}
+.tut{
+    font-size: 20px;
+}
+.banan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display{
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+}
+.sect1{
+    margin-left: 140px;
+}
+.menus{
+    margin-left: 140px;
+    width: 1130px;
+    align-items: center;
+}
+.btn11{
+    color: #458FF6;
+    border: 2px solid#458FF6;
+    width: 200px;
+    height: 57px;
+    border-radius: 50px;
+    margin-top: 43.83px;
+}
+footer{
+    padding-top: 159px;
+    padding-left: 220px;
+    margin-top: 230px;
+    background-color: #5A98F2;
+    width: 1600px;
+    height: 432px;
+}
+.footer_container{
+    height: 432px;
+    width: 1280px;
+    height: 142px;
+    display: flex;
+    justify-content: space-between;
+}
+.div11{
+    width: 386px;
+    height: 142px;
+    color: white;
+}
+.rrr{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.kkk{
+    margin-top: 17px;
+}
+.div12{
+    color: white;
+    width: 99px;
+    height: 101px;
+}
+.div13{
+    color: white;
+    width: 84px;
+    height: 101px;
+}
